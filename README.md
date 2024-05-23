@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Travel List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Travel List App! This application is designed to help users create and manage their travel packing lists. Built using React, it offers a user-friendly interface for adding and deleting items to ensure you never forget anything on your trips.
 
-## Available Scripts
+![image](https://github.com/Harish2002-projects/Travel-list/assets/123865573/72a934ee-eccf-425e-b948-3009a17ea36e)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Add Items**: Easily add items to your packing list.
+- **Delete Items**: Remove items you no longer need.
+- **Mark as Packed**: Check off items as you pack them.
+- **Sort by Packed Status**: sort the items in the list based on 3 given options
+- **Clear Items**: Clear the list with the click of a button 
+- **Responsive Design**: Works well on both desktop and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Make sure you have the following installed on your system:
 
-### `npm test`
+- Node.js (v12 or higher)
+- npm (v6 or higher) or yarn (v1.22 or higher)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. **Clone the repository:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/your-username/travel-list-app.git
+   cd travel-list-app
+   
+2. **Install dependencies:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    If you use npm:
+    
+    npm install
+   
+    Or if you use yarn:
+    
+    yarn install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   This will start the app on http://localhost:3000.
+  
+ ## Usage
 
-### `npm run eject`
+- **Adding an Item**: Enter the item name in the input field and click the "Add" button.
+- **Deleting an Item**: Click the "Delete" button next to an item to remove it.
+- **Marking as Packed**: Click the checkbox next to an item to mark it as packed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React**: A JavaScript library for building user interfaces.
+- **HTML**: The standard markup language for creating web pages.
+- **CSS**: Stylesheet language used for describing the presentation of a document written in HTML.
+- **JavaScript**: A programming language that conforms to the ECMAScript specification.
+- **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **npm**: A package manager for the JavaScript programming language.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
+   
